@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crepúsculo</title>
+</head>
+<body>
+  <header>
+    <h1>Crepúsculo (Twilight)</h1>
+  </header>
+
+  <main>
+    <section>
+      <img src="https://upload.wikimedia.org/wikipedia/pt/3/39/Twilightposter.jpg" alt="Pôster do filme Crepúsculo" width="300">
+    </section>
+
+    <section>
+      <h2>Sinopse</h2>
+      <p>
+        Isabella Swan é uma adolescente que se muda para a pequena cidade de Forks, onde conhece o misterioso Edward Cullen. 
+        Ela logo descobre que Edward é um vampiro e os dois se apaixonam, iniciando um romance perigoso entre humano e imortal.
+      </p>
+    </section>
+
+    <section>
+      <h2>Atores Principais</h2>
+      <ul>
+        <li>Kristen Stewart (Bella Swan)</li>
+        <li>Robert Pattinson (Edward Cullen)</li>
+        <li>Taylor Lautner (Jacob Black)</li>
+        <li>Ashley Greene (Alice Cullen)</li>
+        <li>Peter Facinelli (Carlisle Cullen)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Mais Informações</h2>
+      <p>
+        Veja mais sobre o filme no 
+        <a href="https://www.imdb.com/title/tt1099212/" target="_blank">IMDb</a>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
