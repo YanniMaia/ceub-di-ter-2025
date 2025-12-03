@@ -1,0 +1,107 @@
+/* Estilização básica para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte principal */
+    background-color: #1a1a1a; /* Fundo escuro para um tema de "Crepúsculo" */
+    color: #f0f0f0; /* Cor do texto clara */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilização para o cabeçalho (Header) */
+header {
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza o cabeçalho na página */
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #2c2c2c; /* Fundo levemente mais claro que o body */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+}
+
+/* Estilização para o título principal */
+h1 {
+    color: #e0e0e0; /* Cor do título */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Estilização para a imagem */
+header img {
+    border: 5px solid #660000; /* Borda vermelha escura */
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 100%; /* Torna a imagem responsiva */
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilização para a sinopse (Parágrafo) */
+header p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+/* Estilização para a lista de atores */
+ul {
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+    max-width: 400px; /* Limita a largura da lista */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilização para os itens da lista */
+ul li {
+    background-color: #383838;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 3px solid #b30000; /* Linha de destaque vermelha */
+}
+
+/* Estilização para o título da seção de Atores (o `<li>` que está fora do `<ul>` no HTML) */
+/* Nota: O HTML original tem um `<li>` solto antes do `<ul>`.
+   Vamos estilizá-lo para parecer um subtítulo. */
+header > li {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffcccc; /* Cor mais clara para destaque */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block; /* Garante que ocupe a largura total */
+}
+
+/* Estilização para o link "Mais Informações" */
+header section p { /* Seleciona o parágrafo dentro da seção (que é o `header` no seu HTML) */
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px dashed #444444; /* Linha tracejada de separação */
+}
+
+/* Estilização para o hyperlink */
+a {
+    color: #ffcccc; /* Cor do link (rosa claro) */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+/* Efeito de hover para o hyperlink */
+a:hover {
+    color: #b30000; /* Cor vermelha escura ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilização para o elemento main */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
